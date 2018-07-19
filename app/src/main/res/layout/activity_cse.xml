@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/appscipic"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="-75dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/csepic" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/csehod" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Ms. Narina Thakur\n
+HOD and Associate Professor\n
+Email: narina.thakur@bharatividyapeeth.edu"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="10dp"
+                android:text="FROM THE DESK OF HOD\n"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="20sp"
+                android:text="The objective of Department of Computer Science and Engineering is imparting quality education in the field of Computer Science and technology. With rapidly evolving technology and the continuous need for innovation the department has always produced quality professionals, holding important positions in Information Technology research and industry in India and abroad.\n
+The Department has well equipped laboratories with latest technology computer systems and software. Each laboratory is equipped with more than twenty (as per students practical batch size) Desktop Machines, with one server and a laser printer. The laboratories are fully networked and provide all facilities to the student to take their projects and research works. The department has provided WiFi connection to all the students to get online academic resources for their overall excellence."/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/appscipic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/apsci" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/appliedsci"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr. Sushmita Mohapatra\n
+ HOD and Associate Professor\n
+ Email: sushmita.mohapatra@bharatividyapeeth.edu\n"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="FROM THE DESK OF HOD\n"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="20sp"
+            android:text="Technical Education is one of the most promising components of a nation that can contribute to the national development The phenomenal growth in the fields of aerospace, ICT, health industry etc., reflects unequivocally India's structured growth and international competence. Despite these developments an insight into the technical education system leads to a number of knowledge and opportunity gaps, especially in the perception of international compatibility and contemporary national needs. The nobility, commitment and modesty of these two founder pillars has built in innovation, industry-academia coordination, international collaboration and a dynamic curriculum structure to address the contemporary needs and bridge the gaps. \nThe students who join the college in the first year experience freedom for the first time. Therefore a close and continuous monitoring and mentoring of the students by the teachers is required which keeps them always on the track with a focused pursuit of learning and career building. Keeping the above facts in mind focus is laid on the academic excellence, discipline and other skills which not only makes them excellent professionals but good human beings only."/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

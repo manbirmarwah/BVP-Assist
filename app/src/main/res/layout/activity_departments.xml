@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@drawable/department"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Button
+                android:id="@+id/dept1"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_state"
+                android:text="APPLIED SCIENCE" />
+
+            <Button
+                android:id="@+id/dept2"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_state"
+                android:text="COMPUTER SCIENCE" />
+            <Button
+                android:id="@+id/dept3"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_state"
+                android:text="INFORMATION TECHNOLOGY" />
+            <Button
+                android:id="@+id/dept4"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_state"
+                android:text="ELECTRONICS AND COMMUNICATION" />
+            <Button
+                android:id="@+id/dept5"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_state"
+                android:text="ELECTRONICS AND ELECTRICAL" />
+            <Button
+                android:id="@+id/dept6"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_state"
+                android:text="INSTRUMENTATION AND CONTROL" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

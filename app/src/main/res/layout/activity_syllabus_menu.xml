@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SyllabusMenu"
+    android:orientation="vertical"
+    android:layout_margin="12dp">
+
+    <TextView
+        android:id="@+id/hintText"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a semester:"
+        android:textSize="38sp"
+        android:textStyle="bold|italic"
+        android:textColor="#006b55"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/odd"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:text="Odd semester"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_state"/>
+
+    <Button
+        android:id="@+id/even"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:text="Even semester"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_state"/>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/books"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:background="@drawable/books"
+        android:text="Recommended Books"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/syllabusMenu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="8dp"
+        android:text="Syllabus"
+        android:background="@drawable/syllabus"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/society"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:text="Societies and Clubs"
+        android:background="@drawable/society"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="About College"
+        android:background="@drawable/college_life"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+</LinearLayout>

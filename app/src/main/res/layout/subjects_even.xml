@@ -1,0 +1,105 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OddSubjects"
+    android:orientation="vertical"
+    android:layout_margin="12dp">
+
+    <TextView
+        android:id="@+id/hintText3"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a subject:"
+        android:textSize="38sp"
+        android:textStyle="bold|italic"
+        android:textColor="#006b55"
+        android:layout_marginBottom="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/maths2"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:text="Applied Mathematics - II"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_state"/>
+
+            <Button
+                android:id="@+id/phy2"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:text="Applied Physics - II"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_state"/>
+
+            <Button
+                android:id="@+id/evs"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:text="Environmental Studies"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_state"/>
+
+            <Button
+                android:id="@+id/ed"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:text="Electronic Devices"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_state"/>
+
+            <Button
+                android:id="@+id/ip"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:text="Introduction to Programming"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_state"/>
+
+            <Button
+                android:id="@+id/em"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:text="Engineering Mechanics"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_state"/>
+
+            <Button
+                android:id="@+id/cs"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="56dp"
+                android:text="Communication Skills"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_state"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/eeepic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/eeehod"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prof. Kusum Tharani\n
+HOD and Associate Professor\n
+Email id:kusum.tharani@bharatividyapeeth.edu"
+                android:textAlignment="center"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="FROM THE DESK OF HOD\n"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="The process of learning is extremely important in life. What you learn, how you learn and where you learn play a crucial role in developing ones intellectual capability, besides career. Hence on behalf of Department of Electrical and Electronics, I welcome all you to BVCOE New Delhi. Along with academic knowledge BVCOE also trains its Technocrats to face the challenges in life by providing many value added courses to enhance their career prospects.
+
+\n\nThe excellent infrastructure, teaching faculty of the best kind ensuring quality education such as interaction among students, parents and staff, along with a Training and Placement Cell ensures a bright future to its students. Electrical and Electronics engineering continues to be an ever demanding in industry as indicated by the current trend for hiring graduates. Electrical and electronics engineers are working today in all spheres of modern society, be it internet, cellular communication, satellites, industrial control systems, power systems, non conventional energy sources or DC and AC transmission systems.\nThe curriculum of the department of electrical and electronics engineering is therefore designed to impart the students consummate knowledge and skills for careers in wide range of industries. The department boasts of distinguished and dedicated faculty that offers full support to the students to help bring out the best in them. Moreover, the faculty members organize special sessions for topics related to their individual areas of interest so that students get familiarized with the state of the art happenings in the domain of EEE." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

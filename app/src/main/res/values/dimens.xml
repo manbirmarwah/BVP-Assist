@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="search_field_left_margin" />
+    <dimen name="search_field_right_margin" />
+    <dimen name="spinner_top_margin" />
+    <dimen name="book_list_right_margin" />
+    <dimen name="book_list_top_margin" />
+    <dimen name="book_content_bottom_margin" />
+    <dimen name="book_content_right_margin" />
+    <dimen name="book_content_left_margin" />
+    <dimen name="book_list_title_text" />
+    <dimen name="book_content_top_margin" />
+    <dimen name="spinner_text" />
+</resources>

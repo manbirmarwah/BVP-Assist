@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/itpic"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ithod1"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Dr. Vanita Jain\n
+Professor and Head\n
+Information Technology Department\n
+Email: vanita.jain@bharatividyapeeth.edu"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="10dp"
+                android:text="FROM THE DESK OF HOD\nInnovation distinguishes between a leader and a follower.\n-Steve Jobs\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="10dp"
+                android:text= "Learning is a continuous and endless process and does not finish with the acquisition of a degree, especially because steady and rapid advances in Computing Technologies shorten the life of tools and techniques prevalent today. Right from its inception, the Information Technology Department has been offering excellent infrastructural and teaching facilities with a variety of computing platforms to aspiring professional students to meet the burgeoning demands of the IT industry. Therefore, we give our students a strong foundation in IT, problem solving techniques and make them adaptable to changes. \nThe prime endeavor of the department is to produce confident professionals tuned to real time working environment. Students at IT Department are nurtured to become best software professionals or entrepreneurs in their own innovative way. The department offers excellent academic environment with a team of highly qualified faculty members to inspire the students to develop their technical skills and inculcate the spirit of team work in them."/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

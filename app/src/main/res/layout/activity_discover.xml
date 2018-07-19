@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Founder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="FOUNDER" />
+
+                <ImageView
+                    android:id="@+id/FImage"
+                    android:layout_width="190dp"
+                    android:layout_height="215dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/founder1"/>
+
+                <TextView
+                    android:id="@+id/FText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Late Hon'ble Dr. Patangrao Kadam ( M.A., L.L.B., Ph.D. )\n
+Founder, Bharati Vidyapeeth, Pune\n
+Chancellor, Bharati Vidyapeeth Deemed University"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="15sp"/>
+
+                <TextView
+                    android:id="@+id/Principal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="PRINCIPAL" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/principal"/>
+
+                <TextView
+                    android:id="@+id/PText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Dharmender Saini\n
+PRINCIPAL -  Bharati Vidyapeeth’s College of Engineering, New Delhi."
+                    android:textAlignment="center" />
+
+
+
+            </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

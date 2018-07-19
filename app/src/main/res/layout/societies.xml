@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Societies"
+    android:layout_marginVertical="12dp"
+    android:paddingHorizontal="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Societies of BVCOE"
+        android:layout_gravity="center_horizontal"
+        android:textSize="38sp"
+        android:textStyle="bold|italic"
+        android:textColor="#006b55"
+        android:layout_marginBottom="15dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:smoothScrollbar="true"
+        android:scrollingCache="false"
+        android:animationCache="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/acm_ic"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:src="@drawable/acm">
+
+    </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:text="Association for Computing Machinery -\nACM BVP"
+            android:textSize="20sp"
+            android:textColor="#00719e"/>
+
+            <Button
+                android:id="@+id/visit1"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3d000000"
+                android:layout_marginVertical="30dp"
+                android:layout_marginHorizontal="30dp">
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/dsc_ic"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:src="@drawable/dsc">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="Developer Student Club - DSC BVP"
+                android:textSize="20sp"
+                android:textColor="#00719e"/>
+
+            <Button
+                android:id="@+id/visit2"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3d000000"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="30dp">
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/ieee_ic"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:src="@drawable/bvpieee">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:text="Institute of Electrical and Electronic Engineers - BVPIEEE"
+                android:textSize="20sp"
+                android:textColor="#00719e"/>
+
+            <Button
+                android:id="@+id/visit3"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3d000000"
+                android:layout_marginVertical="30dp"
+                android:layout_marginHorizontal="30dp">
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/iste_ic"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:src="@drawable/iste">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Indian Society of Technical Education - BVPISTE"
+                android:textSize="20sp"
+                android:textColor="#00719e"/>
+
+            <Button
+                android:id="@+id/visit10"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3d000000"
+                android:layout_marginVertical="30dp"
+                android:layout_marginHorizontal="30dp">
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/nss_ic"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:src="@drawable/nss">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="National Service Scheme - NSS BVP"
+                android:textSize="20sp"
+                android:textColor="#00719e"/>
+
+            <Button
+                android:id="@+id/visit4"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3d000000"
+            android:layout_marginVertical="30dp"
+            android:layout_marginHorizontal="30dp">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/csi_ic"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="145dp"
+            android:src="@drawable/bvpcsi">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:text="Computer Society of India - BVPCSI"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#00719e"/>
+
+        <Button
+            android:id="@+id/visit5"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:text="Visit"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_state"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3d000000"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="30dp">
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/isa_ic"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="195dp"
+            android:src="@drawable/isa2">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:text="International Society for Automation"
+            android:textSize="20sp"
+            android:textColor="#00719e"/>
+
+        <Button
+            android:id="@+id/visit6"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:text="Visit"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_state"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3d000000"
+                android:layout_marginVertical="30dp"
+                android:layout_marginHorizontal="30dp">
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/mosc_ic"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:src="@drawable/mosc">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Mozila Open Source Club - BVP MOSC"
+                android:textSize="20sp"
+                android:textColor="#00719e"/>
+
+            <Button
+                android:id="@+id/visit7"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3d000000"
+                android:layout_marginVertical="30dp"
+                android:layout_marginHorizontal="30dp">
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/enactus_ic"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:src="@drawable/enactus">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="Enactus BVCOE"
+                android:textSize="20sp"
+                android:textColor="#00719e"/>
+
+            <Button
+                android:id="@+id/visit8"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#3d000000"
+                android:layout_marginVertical="30dp"
+                android:layout_marginHorizontal="30dp">
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/aagaaz_ic"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:src="@drawable/aagaaz">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="Aagaaz - The Music Society"
+                android:textSize="20sp"
+                android:textColor="#00719e"/>
+
+            <Button
+                android:id="@+id/visit9"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_state"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

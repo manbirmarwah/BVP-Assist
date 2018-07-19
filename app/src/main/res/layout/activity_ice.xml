@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icelogo"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icehod"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Mrs. Aarti Kane\n
+HOD and Associate Professor\n
+Email: arati.kane@bharatividyapeeth.edu"
+                android:layout_marginBottom="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="FROM THE DESK OF HOD\n"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:text="Instrumentation and Control Engineering deals with measurement, control and automation of industrial and research processes. It is a multidisciplinary field and plays a vital role in all industries and research organizations.
+\nInstrumentation and Control Engineering department of Bharati Vidyapeeth's College of Engineering, with its team of qualified and dedicated faculties, is committed to develop instrumentation professionals with a progressive attitude and the most updated skill-sets to match the academic and industry needs. We have state-of-the-art lab facilities to enhance the core competency of the students complimented with industry collaboration. We truly strive to achieve the motto of creating an ambience of overall development and academic excellence for the prospective engineers."/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

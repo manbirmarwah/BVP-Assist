@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Bharati vidyapeeth’s college of engg., New Delhi since its establishment in 1999, has strived to provide the best engineering education to its students through well qualified and dedicated faculty and provision of well equipped modern labs.
+
+The college affiliated to Guru Gobind Singh Indraprasth University, New Delhi, and approved by All India Council for Technical Education (AICTE), Ministry of HRD, Govt. of India, BVCOE is steadily striding forward in its quest of establishing itself among the top engineering colleges in North India."
+               android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Vision"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="The vision of the college is to continuously excel and thus coming together enlivens the research themes, creates awareness about upcoming technologies and provide platform to budding research workers for achieving their rightful place in the scientific community."
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
